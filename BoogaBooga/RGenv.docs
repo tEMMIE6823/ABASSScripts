@@ -1,0 +1,50 @@
+_G.Data - {table}
+  _G.Data.userSettings - {table}:
+  _G.Data.userSettings.eatHotkey - {boolean}
+  _G.Data.userSettings.pickupStyle - {string}
+  _G.Data.userSettings.streamerMode - {boolean}
+  _G.Data.userSettings.uiPanelScale - {string}
+  _G.Data.userSettings.panelTranslucency - {boolean}
+  _G.Data.userSettings.muteMusic - {boolean}
+  _G.Data.userSettings.muteInvitations - {boolean}
+  _G.Data.userSettings.camLock - {boolean};
+_G.Data.hasSpawned - {boolean}
+_G.Data.appearance - {table}:
+  _G.Data.appearance.face - {string}
+  _G.Data.appearance.hair - {string}
+  _G.Data.appearance.skin - {string};
+_G.Data.armor - {table}:
+  _G.Data.armor.bag - {string};
+_G.Data.stats - {table}:
+  _G.Data.stats.food - {number};
+_G.Data.ownedCosmetics - {table}
+_G.Data.equipped - {number}
+_G.Data.toolbar - {table}
+_G.Data.inventory - {table}
+_G.Data.lastCombat - {number}
+_G.Data.level - {number}
+_G.Data.essence - {number}
+_G.Data.coins - {number}
+
+_G.root - {BasePart}
+_G.char - {model}
+_G.hum - {humanoid}
+_G.mouse - {mouse}
+_G.localPlayer - {player}
+_G.alive - {boolean}
+_G.cam - {camera}
+_G.hideOthers - {boolean}
+_G.anims - {table}
+_G.reprimanded - {boolean}
+
+Items class:
+  quantity
+  name
+  image
+
+Items recipe class:
+  name
+  image
+  nourishment
+    food
+    health

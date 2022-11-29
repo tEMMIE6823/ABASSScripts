@@ -1,0 +1,9 @@
+local nameForHub = game.Players.LocalPlayer.Name
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "ABAS HUB", HidePremium = true, SaveConfig = true, ConfigFolder = "ABASHUB",IntroEnabled = true,IntroIcon = "http://www.roblox.com/asset/?id=11111968854",IntroText = "ABAS HUB"})
+OrionLib:MakeNotification({
+	Name = "Welcome to ABAS Hub",
+	Content = "Hello "..nameForHub,
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
